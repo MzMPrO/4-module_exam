@@ -1,0 +1,12 @@
+version: '3.11'
+
+services:
+  bot:
+    image: mirahmadhacker/exam_tg_bot:alpine
+    working_dir: /apps
+    container_name: aiogram_bot
+    environment:
+      TOKEN: ${TOKEN}
+    command: python main.py
+
+

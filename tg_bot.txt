@@ -1,0 +1,2 @@
+docker pull mirahmadhacker/exam_tg_bot:alpine
+TOKEN=api_token docker compose up --build
